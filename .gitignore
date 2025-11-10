@@ -1,32 +1,93 @@
-# Prerequisites
-*.d
+## Visual Studio 기본
+.vs/
+.vscode/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+## 빌드 결과
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+ipch/
+obj/
+out/
+build/
+*.log
+*.tlog
+*.pdb
+*.idb
+*.ilk
 *.exe
-*.out
+*.dll
+*.lib
 *.app
+*.exp
+
+## 중간 산출물
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ipch
+*.tmp
+*.cache
+*.sbr
+*.manifest
+*.res
+*.rsp
+
+## 백업/임시 파일
+*.bak
+*.old
+*.tmp
+*.temp
+*.log
+*.ncb
+
+## 프로젝트 자동 생성 파일
+*.aps
+*.vspscc
+*.vssscc
+*.pbi
+*.dbmdl
+*.suo
+*.user
+*.psess
+*.vsp
+*.vspx
+*.pidb
+*.svclog
+
+## CMake (있다면)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+## OS 관련
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.lnk
+
+## 기타
+*.opendb
+*.VC.db
+*.ipdb
+*.iobj
+
+## 테스트 결과
+TestResults/
+*.trx
+
+## 패키지 관리자
+packages/
+*.nuget.props
+*.nuget.targets
