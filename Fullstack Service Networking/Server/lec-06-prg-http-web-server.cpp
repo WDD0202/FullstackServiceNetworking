@@ -85,6 +85,18 @@ int main()
 		}
 	});
 
+	svr.Post("/.*", [](const Request& req, Response& res) {
+		std::cout << "## do_Get() activated." << std::endl;
+
+		print_http_request_detail(req);
+		res.set_header("Content-type", "text/html");
+		
+		int content_length = req.content_length_;
+		req.target
+		std::cout << "## POST request data = > " << "." << std::endl;
+		std::cout << "## POST request for calculation => " << "." << std::endl;	
+	});
+
 	std::cout << "## HTTP server started at http://" << server_name << server_port << std::endl;
 	svr.listen(server_name, 8080);
 }

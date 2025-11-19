@@ -22,13 +22,11 @@ int main()
 	std::cout << http_request->body << std::endl;
 	std::cout << "## GET response [end]" << std::endl;
 
-	//std::cout << "## GET request for http://localhost:8080/ with var1 is 9 and var2 is 9" << std::endl;
-	//http_request = cli.Get("/");
-	//std::cout << "## GET response [start]" << std::endl;
-	//std::cout << http_request->body << std::endl;
-	//std::cout << "## GET response [end]" << std::endl;
+	std::cout << "## POST request for http://localhost:8080/ with var1 is 9 and var2 is 9" << std::endl;
+	http_request = cli.Post("/");
+	std::cout << "## Post response [start]" << std::endl;
+	std::cout << http_request->body << std::endl;
+	std::cout << "## Post response [end]" << std::endl;
 
-
-
-
+	std::cout << "## HTTP client completed." << std::endl;
 }
