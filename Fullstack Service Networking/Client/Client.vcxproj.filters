@@ -18,10 +18,24 @@
     <ClCompile Include="lec-06-prg-02-http-web-client.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="lec-06-prg-03-json-example.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="httplib.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lec-06-prg-03-json-example.json">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="lec-06-prg-04-json-example.json">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

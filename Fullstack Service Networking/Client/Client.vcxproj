@@ -125,9 +125,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lec-06-prg-02-http-web-client.cpp" />
+    <ClCompile Include="lec-06-prg-03-json-example.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="httplib.h" />
+    <ClInclude Include="json.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lec-06-prg-03-json-example.json" />
+    <None Include="lec-06-prg-04-json-example.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
