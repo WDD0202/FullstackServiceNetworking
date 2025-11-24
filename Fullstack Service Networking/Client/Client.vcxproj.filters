@@ -27,6 +27,9 @@
     <ClCompile Include="lec-06-prg-05-json-example.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="lec-06-prg-06-json-example.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="httplib.h">
