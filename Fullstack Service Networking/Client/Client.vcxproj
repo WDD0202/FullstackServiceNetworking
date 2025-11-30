@@ -139,8 +139,10 @@
     <ClCompile Include="lec-06-prg-06-json-example.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="lec-06-prg-08-rest-client-v3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="crow.h" />
     <ClInclude Include="httplib.h" />
     <ClInclude Include="json.hpp" />
   </ItemGroup>

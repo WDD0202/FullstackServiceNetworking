@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="crow.h" />
     <ClInclude Include="httplib.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lec-06-prg-http-web-server.cpp" />
+    <ClCompile Include="lec-06-prg-07-rest-server-v3.cpp" />
+    <ClCompile Include="lec-06-prg-http-web-server.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
