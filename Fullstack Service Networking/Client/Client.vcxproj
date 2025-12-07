@@ -102,7 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\JoonYoung\Documents\2025-2\Fullstack Service Networking\Fullstack Service Networking\Client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoonYoung\Documents\2025-2\Fullstack Service Networking\Fullstack Service Networking\Client;C:\Users\JoonYoung\Documents\2025-2\FullstackServiceNetworking\Fullstack Service Networking\asio-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,7 +142,7 @@
     <ClCompile Include="lec-06-prg-08-rest-client-v3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="crow.h" />
+    <ClInclude Include="crow_all.h" />
     <ClInclude Include="httplib.h" />
     <ClInclude Include="json.hpp" />
   </ItemGroup>
